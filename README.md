@@ -39,7 +39,7 @@ and an ancient greek corpus (`corpus.csv`)
 If you find our work useful to your research, please cite this work as:
 
 ```
-@inproceedings{liagkou-etal-2022-htrec,
+@inproceedings{liagkou-papadatos-2022-htrec,
     title = "Rule-based technique to improve the HTR output of Greek papyri and Byzantine manuscripts",
     author = "Liagkou, Konstantina  and Papadatos, Emmanouil ",
     booktitle = "HTREC 2022: Improving the HTR output of Greek papyri and Byzantine manuscripts",
