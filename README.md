@@ -1,6 +1,10 @@
-# HTREC 2022: Improving the HTR output of Greek papyri and Byzantine manuscripts
+# HTREC(https://www.aicrowd.com/challenges/htrec-2022/) 2022: Improving the HTR output of Greek papyri and Byzantine manuscripts
 
-1st place solution for the [HTREC 2022](https://www.aicrowd.com/challenges/htrec-2022/) on leaderboard.
+1st place synthetic and original dataon leaderboard.
+
+1st place synthetic data.
+
+4st place original data.
 
 The codes are created by Team error_404_name_not_found, @konstantina_liagkou and @manos_papadatos.
 
