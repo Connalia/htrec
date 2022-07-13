@@ -1,6 +1,6 @@
 # [HTREC 2022](https://www.aicrowd.com/challenges/htrec-2022/): Improving the HTR output of Greek papyri and Byzantine manuscripts
 
-1st place synthetic and original dataon leaderboard.
+1st place synthetic and original data on leaderboard.
 
 1st place synthetic data.
 
