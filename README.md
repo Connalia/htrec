@@ -1,5 +1,7 @@
 # [HTREC 2022](https://www.aicrowd.com/challenges/htrec-2022/): Improving the HTR output of Greek papyri and Byzantine manuscripts
 
+### Ranking
+
 1st place synthetic and original data on leaderboard.
 
 1st place synthetic data.
@@ -18,6 +20,8 @@ The digitization of ancient texts is essential for analyzing ancient corpora and
 Existing work on HTR combine OCR models and Natural language processing (NLP) methods from fields such as grammatical error correction (GEC), which can assist with the task of post-correcting transcription errors. The post-correction task has been reported as expensive, time-consuming, and challenging for the human expert, especially for OCRed text of historical newspapers, where the error rate is as low as 10%. The HTREC focus of this challenge will be on the post-correction of HTR transcription errors, attempting to build on recent NLP advances such as the successful applications of Transformers and transfer learning. The ground truth of the evaluation set will be used to score participating systems in terms of character error rate (CER). 
 
 <hr>
+
+### Code
 
 First and foremost, we did exploratory data analysis in greek text, `eda.ipynb`.
 
