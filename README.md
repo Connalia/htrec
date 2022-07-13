@@ -1,0 +1,45 @@
+# HTREC 2022: Improving the HTR output of Greek papyri and Byzantine manuscripts
+
+1st place solution for the [HTREC 2022](https://www.aicrowd.com/challenges/htrec-2022/) on leaderboard.
+
+The codes are created by Team error_404_name_not_found, @konstantina_liagkou and @manos_papadatos.
+
+The best single model we have obtained during the competition 
+was an **Rule Based model** with Public CERR score 0.278 and Private CERR score 0.00. 
+
+### Introduction
+
+The digitization of ancient texts is essential for analyzing ancient corpora and preserving cultural heritage. However, the transcription of ancient handwritten text using optical character recognition (OCR) methods remains challenging. Handwritten text recognition (HTR) concerns the conversion of scanned images of handwritten text into machine-encoded text. In contrast with OCR where the text to be transcribed is printed, HTR is more challenging and can lead to transcribed text that includes many more errors or even to no transcription at all when training data on the specific script (e.g., medieval) are not available.
+
+Existing work on HTR combine OCR models and Natural language processing (NLP) methods from fields such as grammatical error correction (GEC), which can assist with the task of post-correcting transcription errors. The post-correction task has been reported as expensive, time-consuming, and challenging for the human expert, especially for OCRed text of historical newspapers, where the error rate is as low as 10%. This challenge aims to invite more researchers to work on HTR, initiate the implementation of new state-of-the-art models, and obtain meaningful insights for this task. The focus of this challenge will be on the post-correction of HTR transcription errors, attempting to build on recent NLP advances such as the successful applications of Transformers and transfer learning.
+
+The participants will be provided with data consisting of images of handwritten text and the corresponding text transcribed by a state-of-the-art HTR model. One month will be given to the participants to implement and train their systems and then an evaluation set will be released. The participants will be asked to submit a file with the predictions of their systems for the evaluation set within a few days. The ground truth of the evaluation set will be used to score participating systems in terms of character error rate (CER). We will provide a script that calculates CER. Participating teams will be asked to author 4-page system description papers, which will be used to compile an overview of the task and draw the state of the art in the field.
+
+<hr>
+
+First and foremost, we did exploratory data analysis in greek text, `eda.ipynb`.
+
+The challenge shared some baseline models that we brought it all together, `baselines.ipynb`.
+
+Firstly, we try to apply advance machine learning approaches. 
+Our first approach, based on a char-to-char model `lstm_seq2seq.ipynb`.
+Then we used bert-to-bert model, which fine-tune either 
+[Ancient Greek BERT](https://huggingface.co/pranaydeeps/Ancient-Greek-BERT) `lstm_seq2seq.ipynb`
+or [Greek BERT](https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1) `lstm_seq2seq.ipynb`.
+However, the best scores retrieve from rule based models.
+The folder, called `results`, include the inferences of all the models.
+
+In the folder `data`, there are the dataset from the Challenge (`train.csv`,`test.csv`) 
+and an ancient greek corpus (`corpus.csv`) 
+
+If you find our work useful to your research, please cite this work as:
+
+```
+@inproceedings{liagkou-etal-2022-htrec,
+    title = "Rule-based technique to improve the HTR output of Greek papyri and Byzantine manuscripts",
+    author = "Liagkou, Konstantina  and Papadatos, Emmanouil ",
+    booktitle = "HTREC 2022: Improving the HTR output of Greek papyri and Byzantine manuscripts",
+    month = August,
+    year = "2022",
+    address = "Venice, Italy"
+}
