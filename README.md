@@ -6,7 +6,7 @@
 
 1st place synthetic data.
 
-4st place original data.
+4th place original data.
 
 The codes are created by Team error_404_name_not_found, @konstantina_liagkou and @manos_papadatos.
 
