@@ -27,12 +27,12 @@ First and foremost, we did exploratory data analysis in greek text, `eda.ipynb`.
 
 The challenge shared some baseline models that we brought it all together, `baselines.ipynb`.
 
-Firstly, we try to apply advance machine learning approaches. 
-Our first approach, based on a char-to-char model `lstm_seq2seq.ipynb`.
+Our initial approach was to apply advanced machine learning techniques. 
+The first model that we tried was based on a char-to-char model `lstm_seq2seq.ipynb`.
 Then we used bert-to-bert model, which fine-tune either 
-[Ancient Greek BERT](https://huggingface.co/pranaydeeps/Ancient-Greek-BERT) `lstm_seq2seq.ipynb`
-or [Greek BERT](https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1) `lstm_seq2seq.ipynb`.
-However, the best scores retrieve from rule based models.
+[Ancient Greek BERT](https://huggingface.co/pranaydeeps/Ancient-Greek-BERT)
+or [Greek BERT](https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1) `bert2bert.ipynb`.
+However, the best scores were retrieved from rule based models, 'best_RuleBased.ipynb'.
 The folder, called `results`, include the inferences of all the models.
 
 In the folder `data`, there are the dataset from the Challenge (`train.csv`,`test.csv`) 
