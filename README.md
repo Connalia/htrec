@@ -32,7 +32,7 @@ The first model that we tried was based on a char-to-char model `lstm_seq2seq.ip
 Then we used bert-to-bert model, which fine-tune either 
 [Ancient Greek BERT](https://huggingface.co/pranaydeeps/Ancient-Greek-BERT)
 or [Greek BERT](https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1) `bert2bert.ipynb`.
-However, the best scores were retrieved from rule based models, 'best_RuleBased.ipynb'.
+However, the best scores were retrieved from rule based models, `best_RuleBased.ipynb`.
 The folder, called `results`, include the inferences of all the models.
 
 In the folder `data`, there are the dataset from the Challenge (`train.csv`,`test.csv`) 
