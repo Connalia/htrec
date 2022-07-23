@@ -11,7 +11,7 @@
 The codes are created by Team error_404_name_not_found, @konstantina_liagkou and @manos_papadatos.
 
 The best single model we have obtained during the competition 
-was an **Rule Based model** with scores on real(r) and synthetic(s): rCERR 0.438649, rWERR 1.822330, sCERR 0.095971, sWERR 1.292194. 
+was an **Rule Based model** with scores on real and synthetic:
 
 | Data / Metrics |    CERR    |    WERR    |
 |:--------------:|:----------:|:----------:|
