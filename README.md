@@ -13,6 +13,11 @@ The codes are created by Team error_404_name_not_found, @konstantina_liagkou and
 The best single model we have obtained during the competition 
 was an **Rule Based model** with scores on real(r) and synthetic(s): rCERR 0.438649, rWERR 1.822330, sCERR 0.095971, sWERR 1.292194. 
 
+| Data / Metrics |    CERR    |    WERR    |
+|:--------------:|:----------:|:----------:|
+|      real      |  0.438649  |  1.822330  |
+|   synthetic    |  0.095971  |  1.292194  |
+
 ### Introduction
 
 The digitization of ancient texts is essential for analyzing ancient corpora and preserving cultural heritage. However, the transcription of ancient handwritten text using optical character recognition (OCR) methods remains challenging. Handwritten text recognition (HTR) concerns the conversion of scanned images of handwritten text into machine-encoded text. In contrast with OCR where the text to be transcribed is printed, HTR is more challenging and can lead to transcribed text that includes many more errors or even to no transcription at all when training data on the specific script (e.g., medieval) are not available.
