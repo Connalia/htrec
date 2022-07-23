@@ -51,7 +51,7 @@ If you find our work useful to your research, please cite this work as:
     title = "Rule-based technique to improve the HTR output of Greek papyri and Byzantine manuscripts",
     author = "Liagkou, Konstantina  and Papadatos, Emmanouil ",
     booktitle = "HTREC 2022: Improving the HTR output of Greek papyri and Byzantine manuscripts",
-    month = August,
+    month = November,
     year = "2022",
     address = "Venice, Italy"
 }
