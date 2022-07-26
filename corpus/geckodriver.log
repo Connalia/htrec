@@ -1,0 +1,10 @@
+1658841115164	geckodriver	INFO	Listening on 127.0.0.1:55441
+1658841115670	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52957" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelTWxKw"
+src/tcmalloc.cc:283] Attempt to free invalid pointer 0x7f66b5f16370 
+Redirecting call to abort() to mozalloc_abort
+
+1658841119515	geckodriver	INFO	Listening on 127.0.0.1:53243
+1658841120030	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57143" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilev0zY47"
+src/tcmalloc.cc:283] Attempt to free invalid pointer 0x7fba807163d0 
+Redirecting call to abort() to mozalloc_abort
+
