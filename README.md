@@ -11,7 +11,13 @@
 The codes are created by Team error_404_name_not_found, @konstantina_liagkou and @manos_papadatos.
 
 The best single model we have obtained during the competition 
-was an **Rule Based model** with Public CERR score 0.278 and Private CERR score 0.00. 
+was an **Rule Based model** with scores on real and synthetic:
+
+|  Data / Metrics  |  CERR   |  WERR   |
+|:----------------:|:-------:|:-------:|
+|       real       |  0.439  |  1.822  |
+|    synthetic     |  0.096  |  1.292  |
+| real & synthetic |  0.278  |  1.575  |
 
 ### Introduction
 
@@ -45,7 +51,7 @@ If you find our work useful to your research, please cite this work as:
     title = "Rule-based technique to improve the HTR output of Greek papyri and Byzantine manuscripts",
     author = "Liagkou, Konstantina  and Papadatos, Emmanouil ",
     booktitle = "HTREC 2022: Improving the HTR output of Greek papyri and Byzantine manuscripts",
-    month = August,
+    month = November,
     year = "2022",
     address = "Venice, Italy"
 }
