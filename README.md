@@ -1,4 +1,4 @@
-# [HTREC 2022](https://www.aicrowd.com/challenges/htrec-2022/): Improving the HTR output of Greek papyri and Byzantine manuscripts
+# [HTREC 2022](https://www.aicrowd.com/challenges/htrec-2022/): HTREC 2022: "One Rule Based System to rule them all" - Improving the HTR output of Greek papyri and Byzantine manuscripts in simple way
 
 ### Ranking
 
@@ -49,7 +49,7 @@ If you find our work useful to your research, please cite this work as:
 
 ```
 @inproceedings{liagkou-papadatos-2022-htrec,
-    title = "Rule-based technique to improve the HTR output of Greek papyri and Byzantine manuscripts",
+    title = "HTREC 2022: "One Rule Based System to rule them all" - Improving the HTR output of Greek papyri and Byzantine manuscripts in simple way",
     author = "Liagkou, Konstantina  and Papadatos, Emmanouil ",
     booktitle = "HTREC 2022: Improving the HTR output of Greek papyri and Byzantine manuscripts",
     month = November,
