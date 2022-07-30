@@ -41,8 +41,9 @@ or [Greek BERT](https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1) `bert
 However, the best scores were retrieved from rule based models, `best_RuleBased.ipynb`.
 The folder, called `results`, include the inferences of all the models.
 
-In the folder `data`, there are the dataset from the Challenge (`train.csv`,`test.csv`) 
-and an ancient greek corpus (`corpus.csv`) 
+In the folder `data`, there are the dataset from the Challenge (`train.csv`,`test.csv`). 
+
+Ancient greek and byzantine corpus appear in `corpus` folder.
 
 If you find our work useful to your research, please cite this work as:
 
