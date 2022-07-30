@@ -39,7 +39,8 @@ Then we used bert-to-bert model, which fine-tune either
 [Ancient Greek BERT](https://huggingface.co/pranaydeeps/Ancient-Greek-BERT)
 or [Greek BERT](https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1) `bert2bert.ipynb`.
 However, the best scores were retrieved from rule based models, `best_RuleBased.ipynb`.
-The folder, called `results`, include the inferences of all the models.
+The folder, called `results`, includes the inferences of all the models.
+The `error_analysis.ipynb` compares all the results.
 
 In the folder `data`, there are the dataset from the Challenge (`train.csv`,`test.csv`). 
 
