@@ -1,4 +1,4 @@
-# [HTREC 2022](https://www.aicrowd.com/challenges/htrec-2022/): HTREC 2022: "One Rule Based System to rule them all" - Improving the HTR output of Greek papyri and Byzantine manuscripts in simple way
+# [HTREC 2022](https://www.aicrowd.com/challenges/htrec-2022/): "One Rule Based System to rule them all" - Improving the HTR output of Greek papyri and Byzantine manuscripts in simple way
 
 ### Ranking
 
@@ -43,7 +43,9 @@ The folder, called `results`, include the inferences of all the models.
 
 In the folder `data`, there are the dataset from the Challenge (`train.csv`,`test.csv`). 
 
-Ancient greek and byzantine corpus appear in `corpus` folder.
+Ancient greek and byzantine corpus appear in `corpus` folder. 
+The tetx extract with scraping that is code is available to in `utils` folder, `scraping.ipynb`. 
+Moreover, in the same folder appears the `remove_word_stress.py` to remove ancient greek vowels.
 
 If you find our work useful to your research, please cite this work as:
 
