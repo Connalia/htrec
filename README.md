@@ -42,7 +42,7 @@ However, the best scores were retrieved from rule based models, `best_RuleBased.
 The folder, called `results`, includes the inferences of all the models.
 The `error_analysis.ipynb` compares all the results.
 
-In the folder `data`, there are the dataset from the Challenge (`train.csv`,`test.csv`) that include data from both original and synthetic (original_test.csv and synthetic_test.csv) 
+In the folder `data`, there are the dataset from the Challenge (`train.csv`,`test.csv`) that include data from both original and synthetic (`original_test.csv` and `synthetic_test.csv`) 
 
 If you find our work useful to your research, please cite this work as:
 
