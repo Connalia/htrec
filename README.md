@@ -44,10 +44,6 @@ The `error_analysis.ipynb` compares all the results.
 
 In the folder `data`, there are the dataset from the Challenge (`train.csv`,`test.csv`). 
 
-Ancient greek and byzantine corpus appear in `corpus` folder. 
-The tetx extract with scraping that is code is available to in `utils` folder, `scraping.ipynb`. 
-Moreover, in the same folder appears the `remove_word_stress.py` to remove ancient greek vowels.
-
 If you find our work useful to your research, please cite this work as:
 
 ```
