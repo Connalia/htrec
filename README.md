@@ -55,6 +55,8 @@ If you find our work useful to your research, please cite this work as:
     address = "Venice, Italy"
 }
 
+```
+
 ### Pseudo-code of Rule-Based
 ---
 header-includes:
